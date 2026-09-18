@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Brew-Bros Cafe — Hinjewadi, Pune</title>
+  <meta name="description" content="Coffee, comfort food and good company in Hinjewadi, Pune. Open daily 8:00 AM – 11:00 PM.">
+  <link rel="icon" href="assets/favicon.png" type="image/png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,450;0,9..144,600;1,9..144,450;1,9..144,600&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header id="siteHeader">
+    <nav>
+      <a href="#home" class="brand"><img src="assets/logo.png" alt="Brew-Bros Cafe"> Brew-Bros</a>
+      <div class="nav-links">
+        <a href="#home">Home</a>
+        <a href="#menu">Menu</a>
+        <a href="#story">Our Story</a>
+        <a href="#vibe">The Vibe</a>
+        <a href="#visit">Visit</a>
+      </div>
+      <div class="nav-cta">
+        <a href="#visit" class="cta-btn header-cta">Visit Us</a>
+        <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+      </div>
+    </nav>
+  </header>
+
+  <div class="mobile-nav" id="mobileNav">
+    <div class="mobile-nav-panel">
+      <a href="#home">Home</a>
+      <a href="#menu">Menu</a>
+      <a href="#story">Our Story</a>
+      <a href="#vibe">The Vibe</a>
+      <a href="#visit">Visit</a>
+      <a href="#visit" class="cta-btn">Come Hang</a>
+    </div>
+  </div>
+
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="wrap hero-content">
+      <div class="hero-eyebrow">Hinjewadi · Pune</div>
+      <h1>Brew. Bite.<br><em>Belong.</em></h1>
+      <p class="hero-sub">Coffee, comfort food &amp; good company — in a quiet corner of Hinjewadi built for slow mornings and long conversations.</p>
+      <div class="hero-ctas">
+        <a href="#menu" class="cta-btn light">Explore Menu</a>
+        <a href="#vibe" class="cta-btn outline">Come Hang</a>
+      </div>
+    </div>
+    <div class="hero-scroll"><span>Scroll</span><div class="line"></div></div>
+  </section>
+
+  <section class="experience" id="experience">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">The Brew-Bros Experience</div>
+        <h2>More than just a<br>cup of coffee.</h2>
+        <p>A little coffee. Something delicious. A table to settle into. And good people to share it with.</p>
+      </div>
+      <div class="collage reveal">
+        <figure class="c1"><img src="assets/img/hero/hero-1.jpg" alt="Latte art on a wooden table"></figure>
+        <figure class="c2"><img loading="lazy" decoding="async" src="assets/img/hero/hero-2.jpg" alt="Friends sharing food at a cafe table"></figure>
+        <figure class="c3"><img loading="lazy" decoding="async" src="assets/img/hero/hero-3.jpg" alt="Cafe interior warm light"></figure>
+        <figure class="c4"><img loading="lazy" decoding="async" src="assets/img/hero/hero-4.jpg" alt="Fresh baked pastry"></figure>
+        <figure class="c5"><img loading="lazy" decoding="async" src="assets/img/hero/hero-5.jpg" alt="Pouring coffee"></figure>
+        <figure class="c6"><img loading="lazy" decoding="async" src="assets/img/hero/hero-6.jpg" alt="Cafe interior detail"></figure>
+      </div>
+    </div>
+  </section>
+
+  <section class="menu-section" id="menu">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">Signature Menu</div>
+        <h2>Good things<br>are brewing.</h2>
+        <p>A little bit of everything — brewed, baked, grilled and blended with care. Tap a category to browse.</p>
+      </div>
+
+      <div class="menu-tabs reveal">
+        <button class="menu-tab active" data-tab="coffee">Coffee</button>
+        <button class="menu-tab" data-tab="bites">Bites</button>
+        <button class="menu-tab" data-tab="mains">Burgers &amp; Sandwiches</button>
+        <button class="menu-tab" data-tab="pizza">Pizza &amp; Pasta</button>
+        <button class="menu-tab" data-tab="desserts">Desserts</button>
+        <button class="menu-tab" data-tab="shakes">Shakes &amp; Beverages</button>
+      </div>
+
+      <div class="menu-grid reveal">
+        <div class="menu-panel active" data-panel="coffee">
+          <div class="menu-item">
+            <div class="thumb"><img loading="lazy" decoding="async" src="assets/img/menu/cappuccino.jpg" alt="Cappuccino"></div>
+            <div class="menu-item-body">
+              <div class="menu-item-top"><h4>Bros' Cappuccino</h4><span class="price">₹190</span></div>
+              <p>Double shot, steamed milk, a whisper of cocoa dust.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="thumb"><img loading="lazy" decoding="async" src="assets/img/menu/cold-brew.jpg" alt="Cold brew"></div>
+            <div class="menu-item-body">
+              <div class="menu-item-top"><h4>Slow Cold Brew</h4><span class="price">₹210</span></div>
+              <p>Steeped 18 hours, served over large ice, notes of jaggery.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="thumb"><img loading="lazy" decoding="async" src="assets/img/menu/filter-coffee.jpg" alt="Filter coffee"></div>
+            <div class="menu-item-body">
+              <div class="menu-item-top"><h4>Bros' Filter Kaapi</h4><span class="price">₹150</span></div>
+              <p>South-Indian roast, brass davara-tumbler, proper froth.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="thumb"><img loading="lazy" decoding="async" src="assets/img/menu/flat-white.jpg" alt="Flat white"></div>
+            <div class="menu-item-body">
+              <div class="menu-item-top"><h4>Flat White</h4><span class="price">₹200</span></div>
+              <p>Ristretto pulled tight, velvet microfoam, no drama.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-panel" data-panel="bites">
+          <div class="menu-item">
+            <div class="thumb"><img loading="lazy" decoding="async" src="assets/img/menu/croissant.jpg" alt="Croissant"></div>
+            <div class="menu-item-body">
+              <div class="menu-item-top"><h4>Butter Croissant</h4><span class="price">₹140</span></div>
+              <p>Laminated fresh each morning, served warm on request.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="thumb"><img loading="lazy" decoding="async" src="assets/img/menu/nachos.jpg" alt="Nachos"></div>
+            <div class="menu-item-body">
+              <div class="menu-item-top"><h4>Loaded Nachos</h4><span class="price">₹260</span></div>
+              <p>Salsa, jalapeño, molten cheese, sour cream.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="thumb"><img loading="lazy" decoding="async" src="assets/img/menu/fries.jpg" alt="Fries"></div>
+            <div class="menu-item-body">
+              <div class="menu-item-top"><h4>Peri-Peri Fries</h4><span class="price">₹180</span></div>
+              <p>Hand-cut, double fried, tossed in-house spice mix.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="thumb"><img loading="lazy" decoding="async" src="assets/img/menu/garlic-bread.jpg" alt="Garlic bread"></div>
+            <div class="menu-item-body">
+              <div class="menu-item-top"><h4>Cheese Garlic Bread</h4><span class="price">₹200</span></div>
+              <p>Toasted sourdough, roasted garlic butter, mozzarella.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-panel" data-panel="mains">
+          <div class="menu-item">
+            <div class="thumb"><img loading="lazy" decoding="async" src="assets/img/menu/burger.jpg" alt="Burger"></div>
+            <div class="menu-item-body">
+              <div class="menu-item-top"><h4>The Classic Bros Burger</h4><span class="price">₹320</span></div>
+              <p>Smashed patty, cheddar, house sauce, brioche bun.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="thumb"><img loading="lazy" decoding="async" src="assets/img/menu/sandwich.jpg" alt="Sandwich"></div>
+            <div class="menu-item-body">
+              <div class="menu-item-top"><h4>Grilled Chicken Club</h4><span class="price">₹300</span></div>
+              <p>Triple stack, smoked chicken, tomato, herb mayo.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="thumb"><img loading="lazy" decoding="async" src="assets/img/menu/panini.jpg" alt="Panini"></div>
+            <div class="menu-item-body">
+              <div class="menu-item-top"><h4>Paneer Tikka Panini</h4><span class="price">₹280</span></div>
+              <p>Charred paneer, mint chutney, pressed sourdough.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="thumb"><img loading="lazy" decoding="async" src="assets/img/menu/slider.jpg" alt="Slider"></div>
+            <div class="menu-item-body">
+              <div class="menu-item-top"><h4>Pulled Chicken Slider</h4><span class="price">₹260</span></div>
+              <p>Slow-cooked, tangy BBQ, pickled slaw, mini brioche.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-panel" data-panel="pizza">
+          <div class="menu-item">
+            <div class="thumb"><img loading="lazy" decoding="async" src="assets/img/menu/pizza.jpg" alt="Pizza"></div>
+            <div class="menu-item-body">
+              <div class="menu-item-top"><h4>Wood-Fired Margherita</h4><span class="price">₹340</span></div>
+              <p>San Marzano base, fior di latte, torn basil.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="thumb"><img loading="lazy" decoding="async" src="assets/img/menu/pasta.jpg" alt="Pasta"></div>
+            <div class="menu-item-body">
+              <div class="menu-item-top"><h4>Smoked Alfredo Penne</h4><span class="price">₹310</span></div>
+              <p>Cream reduction, charred mushroom, cracked pepper.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="thumb"><img loading="lazy" decoding="async" src="assets/img/menu/spicy-pizza.jpg" alt="Spicy pizza"></div>
+            <div class="menu-item-body">
+              <div class="menu-item-top"><h4>Spicy Diavola</h4><span class="price">₹380</span></div>
+              <p>Fiery salami, chilli oil, mozzarella, tomato.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="thumb"><img loading="lazy" decoding="async" src="assets/img/menu/fusilli.jpg" alt="Fusilli"></div>
+            <div class="menu-item-body">
+              <div class="menu-item-top"><h4>Arrabbiata Fusilli</h4><span class="price">₹290</span></div>
+              <p>Slow-cooked tomato, chilli, garlic, parmesan.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-panel" data-panel="desserts">
+          <div class="menu-item">
+            <div class="thumb"><img loading="lazy" decoding="async" src="assets/img/menu/cheesecake.jpg" alt="Cheesecake"></div>
+            <div class="menu-item-body">
+              <div class="menu-item-top"><h4>Burnt Basque Cheesecake</h4><span class="price">₹240</span></div>
+              <p>Caramelised top, molten centre, sea salt flake.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="thumb"><img loading="lazy" decoding="async" src="assets/img/menu/brownie.jpg" alt="Brownie"></div>
+            <div class="menu-item-body">
+              <div class="menu-item-top"><h4>Fudge Walnut Brownie</h4><span class="price">₹190</span></div>
+              <p>Warmed, vanilla bean ice cream, chocolate shard.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="thumb"><img loading="lazy" decoding="async" src="assets/img/menu/tiramisu.jpg" alt="Tiramisu"></div>
+            <div class="menu-item-body">
+              <div class="menu-item-top"><h4>Tiramisu Jar</h4><span class="price">₹220</span></div>
+              <p>Espresso-soaked ladyfingers, mascarpone, cocoa.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="menu-panel" data-panel="shakes">
+          <div class="menu-item">
+            <div class="thumb"><img loading="lazy" decoding="async" src="assets/img/menu/milkshake.jpg" alt="Milkshake"></div>
+            <div class="menu-item-body">
+              <div class="menu-item-top"><h4>Salted Caramel Shake</h4><span class="price">₹230</span></div>
+              <p>Hand-churned, whipped cream, caramel drizzle.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="thumb"><img loading="lazy" decoding="async" src="assets/img/menu/iced-tea.jpg" alt="Iced tea"></div>
+            <div class="menu-item-body">
+              <div class="menu-item-top"><h4>Peach Iced Tea</h4><span class="price">₹170</span></div>
+              <p>Cold-steeped, fresh peach, mint sprig.</p>
+            </div>
+          </div>
+          <div class="menu-item">
+            <div class="thumb"><img loading="lazy" decoding="async" src="assets/img/menu/cocoa.jpg" alt="Cocoa"></div>
+            <div class="menu-item-body">
+              <div class="menu-item-top"><h4>Cold Cocoa Deluxe</h4><span class="price">₹210</span></div>
+              <p>Dark cocoa, milk, ice cream, chocolate shavings.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="picks" id="picks">
+    <div class="wrap">
+      <div class="section-head reveal">
+        <div class="eyebrow">The Bros' Picks</div>
+        <h2>Editorial favourites,<br>straight from the pass.</h2>
+        <p>The dishes people drive across Hinjewadi for.</p>
+      </div>
+    </div>
+    <div class="wrap">
+      <div class="picks-track reveal">
+        <div class="pick-card">
+          <img loading="lazy" decoding="async" src="assets/img/signature/classic-burger.jpg" alt="The Classic burger">
+          <div class="pick-card-text"><div class="num">01 — Mains</div><h3>The Classic</h3><p>Comfort food, done right.</p></div>
+        </div>
+        <div class="pick-card">
+          <img loading="lazy" decoding="async" src="assets/img/signature/coffee-fix.jpg" alt="Coffee Fix">
+          <div class="pick-card-text"><div class="num">02 — Coffee</div><h3>The Coffee Fix</h3><p>For mornings that need a little help.</p></div>
+        </div>
+        <div class="pick-card">
+          <img loading="lazy" decoding="async" src="assets/img/signature/sweet-end.jpg" alt="Sweet End dessert">
+          <div class="pick-card-text"><div class="num">03 — Dessert</div><h3>The Sweet End</h3><p>Because dessert is never optional.</p></div>
+        </div>
+        <div class="pick-card">
+          <img loading="lazy" decoding="async" src="assets/img/signature/wood-fired-pizza.jpg" alt="Wood fired pizza">
+          <div class="pick-card-text"><div class="num">04 — Pizza</div><h3>The Fire Starter</h3><p>Charred, blistered, gone in minutes.</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="vibe" id="vibe">
+    <div class="wrap">
+      <div class="vibe-grid">
+        <div class="vibe-collage reveal">
+          <img loading="lazy" decoding="async" class="v1" src="assets/img/space/corner-seating.jpg" alt="Cafe corner seating">
+          <img loading="lazy" decoding="async" class="v2" src="assets/img/space/laptop-coffee.jpg" alt="Laptop and coffee">
+        </div>
+        <div class="reveal">
+          <div class="eyebrow">The Vibe</div>
+          <h2>Stay a while.</h2>
+          <p>Some mornings are for lingering. Bring a laptop, bring your people, bring the dog. There's always a table.</p>
+          <div class="vibe-tags">
+            <span class="vibe-tag">Coffee &amp; conversations</span>
+            <span class="vibe-tag">Casual work sessions</span>
+            <span class="vibe-tag">Catch-ups</span>
+            <span class="vibe-tag">Music &amp; evenings</span>
+            <span class="vibe-tag">Pet-friendly</span>
+            <span class="vibe-tag">Open to everyone</span>
+          </div>
+          <p class="vibe-note">“Everyone has a seat at the table.”</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="story" id="story">
+    <div class="wrap">
+      <div class="story-card reveal">
+        <div class="story-grid">
+          <div class="story-emblem"><img loading="lazy" decoding="async" src="assets/logo.png" alt="Brew-Bros emblem"></div>
+          <div class="story-text">
+            <div class="eyebrow">Our Story</div>
+            <h2>Why Brew-Bros?</h2>
+            <p>It started the way most good things do — two friends, one shared obsession with a proper cup of coffee, and a stretch of Hinjewadi that felt like it needed a place to slow down in.</p>
+            <p>No fuss, no formality. Just honest food, better coffee, and a table that's always got room for one more. That's the whole idea, really — brew something good, share a bite, and let people belong here.</p>
+            <p class="story-sign">— The Brothers, Brew-Bros Cafe</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="social" id="social">
+    <div class="wrap">
+      <div class="social-head reveal">
+        <div class="eyebrow">From The Bros</div>
+        <h2>Follow along.</h2>
+        <div class="social-handle">@brewbrosscafe</div>
+      </div>
+      <div class="masonry reveal">
+        <img loading="lazy" decoding="async" src="assets/img/gallery/gallery-1.jpg" alt="Latte art">
+        <img loading="lazy" decoding="async" src="assets/img/gallery/gallery-2.jpg" alt="Friends at table">
+        <img loading="lazy" decoding="async" src="assets/img/gallery/gallery-3.jpg" alt="Burger close up">
+        <img loading="lazy" decoding="async" src="assets/img/gallery/gallery-4.jpg" alt="Cafe corner">
+        <img loading="lazy" decoding="async" src="assets/img/gallery/gallery-5.jpg" alt="Dessert">
+        <img loading="lazy" decoding="async" src="assets/img/gallery/gallery-6.jpg" alt="Interior warm light">
+        <img loading="lazy" decoding="async" src="assets/img/gallery/gallery-7.jpg" alt="Pizza">
+        <img loading="lazy" decoding="async" src="assets/img/gallery/gallery-8.jpg" alt="Pastry">
+      </div>
+      <div class="social-cta reveal">
+        <a href="https://www.instagram.com/brewbrosscafe/" class="cta-btn ghost" target="_blank" rel="noopener">Follow The Bros</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="visit" id="visit">
+    <div class="wrap">
+      <div class="visit-grid">
+        <div class="reveal">
+          <div class="eyebrow">Visit Us</div>
+          <h2>Come hang.</h2>
+          <div class="visit-details">
+            <div class="visit-row"><div class="label">Address</div><div class="val">Brew-Bros Cafe, Phase 1, Hinjewadi, Pune, Maharashtra 411057</div></div>
+            <div class="visit-row"><div class="label">Hours</div><div class="val">Mon – Sun · 8:00 AM – 11:00 PM</div></div>
+            <div class="visit-row"><div class="label">Phone</div><div class="val"><a href="tel:+919876543210">+91 98765 43210</a></div></div>
+            <div class="visit-row"><div class="label">Instagram</div><div class="val"><a href="https://www.instagram.com/brewbrosscafe/" target="_blank" rel="noopener">@brewbrosscafe</a></div></div>
+          </div>
+          <div class="visit-ctas">
+            <a class="cta-btn light" target="_blank" rel="noopener" href="https://www.google.com/maps/dir/?api=1&amp;destination=Brew-Bros%20Cafe%2C%20Phase%201%2C%20Hinjewadi%2C%20Pune%2C%20Maharashtra%20411057">Get Directions</a>
+            <a href="tel:+919876543210" class="cta-btn outline">Call Us</a>
+            <a class="cta-btn outline" target="_blank" rel="noopener" href="https://www.swiggy.com/city/pune">Swiggy</a>
+            <a class="cta-btn outline" target="_blank" rel="noopener" href="https://www.zomato.com/pune">Zomato</a>
+          </div>
+        </div>
+        <div class="map-card reveal">
+          <iframe title="Brew-Bros Cafe location map" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=Hinjewadi%20Phase%201%20Pune&amp;z=15&amp;output=embed"></iframe>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      <div class="footer-top">
+        <div class="footer-logo"><img loading="lazy" decoding="async" src="assets/logo.png" alt="Brew-Bros logo"><span>Brew-Bros</span></div>
+        <div class="footer-tag">Brew. Bite. Belong.</div>
+      </div>
+      <div class="ornament">
+        <svg viewBox="0 0 200 30" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M2 15 Q40 2 60 15 T100 15" stroke="#B0672A" stroke-width="1"/><circle cx="100" cy="15" r="2" fill="#B0672A"/><path d="M100 15 Q140 28 160 15 T198 15" stroke="#B0672A" stroke-width="1"/></svg>
+      </div>
+      <div class="footer-links">
+        <div class="footer-col">
+          <h5>Visit</h5>
+          <a href="#visit">Hinjewadi, Pune</a>
+          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Brew-Bros%20Cafe%2C%20Phase%201%2C%20Hinjewadi%2C%20Pune" target="_blank" rel="noopener">Get Directions</a>
+        </div>
+        <div class="footer-col">
+          <h5>Explore</h5>
+          <a href="#menu">Menu</a>
+          <a href="#story">Our Story</a>
+          <a href="#vibe">The Vibe</a>
+        </div>
+        <div class="footer-col">
+          <h5>Connect</h5>
+          <a href="https://www.instagram.com/brewbrosscafe/" target="_blank" rel="noopener">Instagram</a>
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener">Facebook</a>
+          <a href="tel:+919876543210">+91 98765 43210</a>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© <span id="yr">2026</span> Brew-Bros Cafe, Hinjewadi.</span>
+        <span>Made with warmth in Pune.</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
