@@ -201,6 +201,7 @@
 
   /* ---------- SECTION 3: MENU ---------- */
   .menu-section{ background:var(--cream); }
+  .menu-item .thumb{ display:none; }
   .menu-tabs{
     display:flex; flex-wrap:wrap; gap:10px; margin-bottom:56px;
   }
